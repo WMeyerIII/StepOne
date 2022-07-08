@@ -1,0 +1,67 @@
+body {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+}
+
+
+.middle {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: black;
+  height: 200vh;
+  width: 75vw;
+}
+
+
+.logo {
+  margin-right: auto;
+  color: white;
+  font-size: 24px;
+}
+
+
+a {
+  color: aliceblue;
+  text-decoration: none;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.top {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  background: #1f2937;
+}
+
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-main {
+}
+
+h2 {
+  font-size: 48px;
+  font-weight: bolder;
+}
+
+.header, .footer {
+  display: flex;
+  background: #1f2937;
+  height: 54px;
+  align-items: center;
+  justify-content: center;
+;
+}
+
+
+
