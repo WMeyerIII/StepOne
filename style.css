@@ -1,19 +1,17 @@
 body {
   display: flex;
-  justify-content: center;
-  margin: 0;
-}
-
-
-.middle {
-  display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  background: black;
-  height: 200vh;
-  width: 75vw;
+  margin: 0;
+  background: url("./assets/galaxy-3608029_1920.jpg");
+  background-clip: content-box;
 }
 
+.header {
+  display: flex;
+  gap: 10px;
+  margin-right: 15vw;
+  margin-left: 15vw;
+}
 
 .logo {
   margin-right: auto;
@@ -21,40 +19,65 @@ body {
   font-size: 24px;
 }
 
-
 a {
   color: aliceblue;
   text-decoration: none;
+  font-size: 18px;
 }
 
 ul {
-  margin: 0;
   padding: 0;
   list-style-type: none;
 }
 
-.top {
+.hero {
+  align-self: flex-start;
+  justify-content: center;
   display: flex;
   flex-direction: column;
   color: white;
-  background: #1f2937;
+  height: 100vh;
 }
 
-.hero {
+.hero-container {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  margin-left: 15vw;
 }
 
-.hero-main {
-}
-
-h2 {
+.hero h1 {
   font-size: 48px;
   font-weight: bolder;
+  margin: 0;
 }
 
-.header, .footer {
+.hero p {
+  width: 30vw;
+  font-size: 18px;
+}
+
+
+.hero button {
+  background: #3882F6;
+  border-radius: 10px;
+  width: 115px;
+  padding: 10px;
+  font-size: 18px;
+  color: white;
+  border: none;
+}
+
+.lower-half {
+  background-image: url("./assets/");
+}
+
+.information {
+  display: flex;
+  justify-content: center;
+  background-color: #1f2937;
+  height: 25vh;
+}
+
+.footer {
   display: flex;
   background: #1f2937;
   height: 54px;
