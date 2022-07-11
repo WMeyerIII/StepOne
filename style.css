@@ -108,7 +108,6 @@ a {
 .information-container {
   display: flex;
   align-items: center;
-  align-self: stretch;
   flex-direction: column;
   flex-wrap: wrap;
   padding: 64px;
@@ -116,9 +115,8 @@ a {
   background: black;
 }
 
-.information h2 {
-  font-size: 36px;
-  margin: 36px;
+.information-container h2 {
+  padding-bottom: 64px;
 }
 
 .cards {
