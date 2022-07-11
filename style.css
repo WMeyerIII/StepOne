@@ -166,7 +166,7 @@ ul {
 
 .sign-up-box {
   display: flex;
-  justify-content: center;
+  /* justify-content: center; */
   align-items: center;
   border-radius: 10px;
   width: 70%;
@@ -182,6 +182,14 @@ ul {
   width: 115px;
   font-size: 18px;
   color: white;
+  margin-left: auto;
+  margin-right: 10vw;
+}
+
+.sign-up-text {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10vw;
 }
 
 
